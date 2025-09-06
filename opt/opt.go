@@ -2,30 +2,35 @@ package opt
 
 // Boolean flag types with constants
 type SuppressColumn1Flag bool
+
 const (
 	SuppressColumn1   SuppressColumn1Flag = true
 	NoSuppressColumn1 SuppressColumn1Flag = false
 )
 
 type SuppressColumn2Flag bool
+
 const (
 	SuppressColumn2   SuppressColumn2Flag = true
 	NoSuppressColumn2 SuppressColumn2Flag = false
 )
 
 type SuppressColumn3Flag bool
+
 const (
 	SuppressColumn3   SuppressColumn3Flag = true
 	NoSuppressColumn3 SuppressColumn3Flag = false
 )
 
 type CheckOrderFlag bool
+
 const (
 	CheckOrder   CheckOrderFlag = true
 	NoCheckOrder CheckOrderFlag = false
 )
 
 type TotalFlag bool
+
 const (
 	Total   TotalFlag = true
 	NoTotal TotalFlag = false
